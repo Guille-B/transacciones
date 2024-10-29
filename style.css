@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.color1 {color: #15958c;}
+.color2 {color: #54b579;}
+.color3 {color: #d7e498;}
+.color4 {color: #f8efcc;}
+.color5 {color: #f8efed;}
+.oculto{
+    display: none;
+}
+
+.deshabilitado{
+    filter: opacity(0.3);
+    pointer-events: none;
+}
+
+
+li {
+	list-style-type: none;
+	text-align: center;
+	padding-bottom: 5%;
+}
+
+input {
+    padding: 5px;
+	background-color:#f8efed;
+	border: none;
+	border-radius: 5px;
+	text-align: left;
+	color: #15958c;
+}
+
+h1{
+	font-family: sans-serif;
+	color: #15958c;
+}
+
+.container {
+    font-family: sans-serif;
+    border: 2px solid #d7e498;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    border-radius: 12px;
+    background-color: #f8efcc;
+    padding-bottom: 10px;
+
+}
+.containerInicio{
+    font-family: sans-serif;
+    border: 2px solid #d7e498;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    border-radius: 12px;
+    background-color: #f8efcc;
+    padding-bottom: 10px;
+}
+
+.registrarse{
+	background-color: #f8efed;
+	color: rgb(0, 0, 0);
+	border: 1px solid #002c2b;
+	width: 50%
+    
+	
+}
+
+button:hover {
+    margin: 25px 60px;
+    padding: 8px 30px;
+    background-color: #15958c;
+    border: 3px solid #d7e498;
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nombre, .apellido, .dni, .contraseña {
+    width: 50%;
+    
+    
+}
+
+body {
+	background-color: #f8efed;
+}
+
+.navbar{
+    width: 100vw;
+    display: flex;
+    height: 30%;
+    background-color: #15958c;
+    color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    margin: 25px 60px;
+    padding: 8px 30px;
+    background-color: #f8efed;
+    border: 3px solid #54b579;
+    border-radius: 25px;
+    color: #002c2b;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#banco{
+    padding: 10px;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #f8efed;
+    text-decoration: none;
+}
+
+.bienvenido{
+    padding: 25%;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: xx-large;
+    color: #15958c;
+}
+
+select{
+    background-color: #15958c;
+    border: 3px solid #d7e498;
+    padding: 10px;
+    border-radius:10px;
+    width: 50%;
+    color: #f8efed
+}
+
+.transaccionContainer{
+    font-family: sans-serif;
+    border: 2px solid #d7e498;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    border-radius: 12px;
+    background-color: #f8efcc;
+    padding-bottom: 10px;
+
+}
