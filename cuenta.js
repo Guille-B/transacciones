@@ -27,7 +27,7 @@ export class Cuentas {
 
     set monto(nuevoMonto) {
         if (typeof nuevoMonto === 'number' && nuevoMonto >= 0) {
-            this.#monto = nuevoMonto; // Cambiado de += a =
+            this.#monto = nuevoMonto; 
         } else {
             console.error("El nuevo monto debe ser un número positivo.");
         }

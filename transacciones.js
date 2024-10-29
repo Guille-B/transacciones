@@ -25,7 +25,6 @@ function MostrarCuenta() {
         const selectO = document.getElementById("cuentasO_Select");
         const selectD = document.getElementById("cuentasD_Select");
         
-        // Limpiar opciones existentes
         selectO.innerHTML = '<option disabled value="">Seleccionar Cuenta</option>';
         selectD.innerHTML = '<option disabled value="">Seleccionar Cuenta</option>';
 
@@ -86,16 +85,6 @@ function transferencia() {
     }
     
 }}
-
-
-
-
-
-
-
-
-
-
 
 
 

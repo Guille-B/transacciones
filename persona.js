@@ -4,7 +4,6 @@ export class Persona {
     #DNI;
     #fecha_nac;
     
-    //constructor
     constructor(nombre,apellido,DNI,fecha_nac) {
         this.nombre = nombre;
         this.#apellido = apellido;
@@ -12,7 +11,6 @@ export class Persona {
         this.#fecha_nac = fecha_nac;
     }
 
-    //getters
     get nombre(){
         return this.#nombre;
     }
@@ -31,7 +29,6 @@ export class Persona {
 
 
 
-    //setters
     set nombre(nuevoNombre){
         this.#nombre = nuevoNombre;
     }
